@@ -1,0 +1,346 @@
+{
+  "summary": {
+    "total_samples": 20,
+    "mode": "random",
+    "source_file": "data\\training_pair_v5_clean.csv",
+    "seed": null,
+    "accuracy": 60.0,
+    "correct": 12,
+    "incorrect": 8,
+    "confusion_matrix": {
+      "true_negatives": 11,
+      "false_positives": 0,
+      "false_negatives": 8,
+      "true_positives": 1
+    },
+    "classification_report": {
+      "Human": {
+        "precision": 0.5789473684210527,
+        "recall": 1.0,
+        "f1-score": 0.7333333333333333,
+        "support": 11.0
+      },
+      "AI": {
+        "precision": 1.0,
+        "recall": 0.1111111111111111,
+        "f1-score": 0.2,
+        "support": 9.0
+      },
+      "accuracy": 0.6,
+      "macro avg": {
+        "precision": 0.7894736842105263,
+        "recall": 0.5555555555555556,
+        "f1-score": 0.4666666666666667,
+        "support": 20.0
+      },
+      "weighted avg": {
+        "precision": 0.7684210526315789,
+        "recall": 0.6,
+        "f1-score": 0.49333333333333335,
+        "support": 20.0
+      }
+    }
+  },
+  "test_cases": [
+    {
+      "id": 1,
+      "source_id": "eupdcorp_17966_2",
+      "domain": "europarl_speech",
+      "input_text": "Ganz zu schweigen von der Grausamkeit von Steinigungen, die in einigen Regionen der Welt noch immer praktiziert werden. schriftlich. ‒ Ich habe heute gegen den Bericht von Anna Záborská zur Chancengleichheit und Gleichbehandlung von Männern und Frauen in Arbeits- und Beschäftigungsfragen gestimmt, da er in einigen zentralen Punkten das Subsidiaritätsprinzip verletzt.",
+      "display_text": "Ganz zu schweigen von der Grausamkeit von Steinigungen, die in einigen Regionen der Welt noch immer praktiziert werden. schriftlich. ‒ Ich habe heute gegen den Bericht von Anna Záborská zur Chancengle...",
+      "original_tag": "human",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.88999938964844,
+        "probability_ai": 0.10999999940395355,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 2,
+      "source_id": "gesetz_itseausbv_4",
+      "domain": "state_law",
+      "input_text": "(5) Die Fertigkeiten, Kenntnisse und Fähigkeiten der in Absatz 2 Nummer 1 bis 7 genannten Berufsbildpositionen sind im Bereich der IT-Berufe berufsübergreifend und werden in gleicher Weise auch in den folgenden Berufsausbildungen vermittelt: 1.in der Berufsausbildung zum Kaufmann für Digitalisierungsmanagement und zur Kauffrau für Digitalisierungsmanagement nach der Digitalisierungsmanagement-Kaufleute-Ausbildungsverordnung vom 28. Februar 2020 (BGBl. I S. 290),2.in der Berufsausbildung zum Fachinformatiker und zur Fachinformatikerin nach der Fachinformatikerausbildungsverordnung vom 28. Februar 2020 (BGBl. I S. 250) und3.in der Berufsausbildung zum Kaufmann für IT-System-Management und zur Kauffrau für IT-System-Management nach der IT-System-Management-Kaufleute-Ausbildungsverordnung vom 28. Februar 2020 (BGBl. I S. 280).",
+      "display_text": "(5) Die Fertigkeiten, Kenntnisse und Fähigkeiten der in Absatz 2 Nummer 1 bis 7 genannten Berufsbildpositionen sind im Bereich der IT-Berufe berufsübergreifend und werden in gleicher Weise auch in den...",
+      "original_tag": "human",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 100.0,
+        "probability_ai": 0.0,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 3,
+      "source_id": "eupdcorp_5052_3",
+      "domain": "europarl_speech",
+      "input_text": "Dies hat uns aber wiederum gezeigt, wie wichtig harmonisierte Kriterien und eine einheitliche Liste sind. Auf der französischen und der belgischen Liste scheint beispielsweise in keinem einzigen Fall dieselbe Fluggesellschaft auf. Aufgrund der Tatsache, dass europäische Bürger nicht nur innerhalb der EU reisen, ist es für mich unabdingbar, dass die Möglichkeit gegeben sein muss, Fluglinien weltweit in diese Liste mit einzubeziehen, da sonst der Informationsgehalt für die europäischen Bürgerinnen und Bürger nicht wirklich effizient ist. Für die Passagiere muss weiterhin klargestellt sein, wer den Transport durchführt, und sie müssen einen besseren und leichteren Zugang zu Informationen über Sicherheitsmängel bekommen. Dabei ist es selbstverständlich, dass immer nur ein Ansprechpartner für die Anliegen des Passagiers zur Verfügung steht bzw. verantwortlich ist. Eine Verordnung ohne Konsequenzen wäre aber wirkungslos.",
+      "display_text": "Dies hat uns aber wiederum gezeigt, wie wichtig harmonisierte Kriterien und eine einheitliche Liste sind. Auf der französischen und der belgischen Liste scheint beispielsweise in keinem einzigen Fall ...",
+      "original_tag": "human",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 100.0,
+        "probability_ai": 0.0,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 4,
+      "source_id": "eupdcorp_18779_0",
+      "domain": "europarl_speech",
+      "input_text": "schriftlich. ‒ Der Ribeiro-Bericht behandelt soziale und arbeitsmarktpolitische Aspekte im Rahmen des Jahreswachstumsberichts des Europäischen Semesters. Grundlegend problematisch ist, dass die EU nach wie vor nicht bereit ist, die durch den Euro verursachten Anpassungsschwierigkeiten anzuerkennen und weiterhin ihren Fokus auf die Bekämpfung von Symptomen legt. Aber auch bei der Bekämpfung der Symptome könnte man hilfreiche Politik machen. In Teilen ist es der EKR gelungen, dem Ansinnen der Zentralisierung von Politik und Verantwortlichkeiten entgegenzuwirken, aber es ist nicht ausreichend gelungen. Beispielhaft wird im Report vorgeschlagen, 20 % der Mittel des Europäischen Sozialfonds für soziale Anliegen und Armutsbekämpfung festzuschreiben und so den Mitgliedstaaten Entscheidungsspielräume zu nehmen, es soll auf EU-Ebene ein Konzept der „sozialen Fairness“ entwickelt werden, oder es wird die Kommission aufgefordert, eine Initiative für Mindestlöhne einzuleiten.",
+      "display_text": "schriftlich. ‒ Der Ribeiro-Bericht behandelt soziale und arbeitsmarktpolitische Aspekte im Rahmen des Jahreswachstumsberichts des Europäischen Semesters. Grundlegend problematisch ist, dass die EU nac...",
+      "original_tag": "human",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 100.0,
+        "probability_ai": 0.0,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 5,
+      "source_id": "ai_bundestag_speech_0084504",
+      "domain": "bundestag_speech",
+      "input_text": "Wer die Entwicklung der letzten Jahre verfolgt hat, weiß: So kann es nicht weitergehen. Aufenthaltsgesetz ist ein Thema, zu dem ich mich äußern möchte. Erwähnenswert ist ferner: Das Prinzip der Verhältnismäßigkeit ist gewahrt. in 89 Prozent der Fälle konnte eine einvernehmliche Lösung gefunden werden. Es sei an dieser Stelle wiederholt: Die Länder bitten um eine verlässliche Finanzierungsgrundlage. die durchschnittliche Verfahrensdauer beträgt 14 Monate. Die Entscheidung liegt heute bei Ihnen. Ich hoffe auf ein weises Urteil.",
+      "display_text": "Wer die Entwicklung der letzten Jahre verfolgt hat, weiß: So kann es nicht weitergehen. Aufenthaltsgesetz ist ein Thema, zu dem ich mich äußern möchte. Erwähnenswert ist ferner: Das Prinzip der Verhäl...",
+      "original_tag": "ai",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.9800033569336,
+        "probability_ai": 0.019999999552965164,
+        "threshold": 77.0
+      },
+      "correct": false
+    },
+    {
+      "id": 6,
+      "source_id": "5265__37",
+      "domain": "bundestag_speech",
+      "input_text": "Wir müssen aber auch dafür sorgen, dass die Voraussetzungen für eine verantwortungsvolle, humanitäre Flüchtlingspolitik hier bei uns sichergestellt sind. Das sogenannte Migrationspaket ist vor diesem Hintergrund ein wichtiger Schritt. Ich habe bereits deutlich gemacht, dass ich nicht von allen Punkten dieses Gesetzespaketes hundertprozentig überzeugt bin. Aber es ist nun mal ein Kompromiss, und ich kann mit diesem Kompromiss letztlich leben. Ich bin allerdings auch weiterhin der Auffassung, dass bei diesem Gesetzesvorhaben insgesamt zu viel Tempo gemacht worden ist. Es wäre wünschenswert und auch angebracht gewesen, etwas mehr Raum für Diskussionen zu haben. So gibt es in diesem Gesetzespaket insgesamt Licht, aber eben auch Schatten. Das gilt auch und gerade für das Zweite Gesetz zur besseren Durchsetzung der Ausreisepflicht. Ich habe, meine Damen und Herren, seit meinem Amtsantritt 2013 immer von zwei Seiten der Flüchtlingspolitik gesprochen: Auf der einen Seite müssen wir alles dafür tun, denjenigen, die einen Schutzanspruch haben und vor Krieg, Gewalt und Verfolgung fliehen, den nötigen Schutz und eine Bleibeperspektive zu geben.",
+      "display_text": "Wir müssen aber auch dafür sorgen, dass die Voraussetzungen für eine verantwortungsvolle, humanitäre Flüchtlingspolitik hier bei uns sichergestellt sind. Das sogenannte Migrationspaket ist vor diesem ...",
+      "original_tag": "human",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 100.0,
+        "probability_ai": 0.0,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 7,
+      "source_id": "ai_state_law_0182046",
+      "domain": "state_law",
+      "input_text": "§ 42 Regelungen zur Zoll- und Außenwirtschaftsrecht (1) Der Antragsteller darf nur tätig werden, wenn nach Prüfung der Sachlage. Die Kosten trägt der Veranlasser. (2) Der Verantwortliche kann anordnen, dass nach pflichtgemäßem Ermessen. Die Durchführung obliegt den zuständigen Landesbehörden. (3) Der Träger der Maßnahme ist zu beachten, dass nach Anhörung.",
+      "display_text": "§ 42 Regelungen zur Zoll- und Außenwirtschaftsrecht (1) Der Antragsteller darf nur tätig werden, wenn nach Prüfung der Sachlage. Die Kosten trägt der Veranlasser. (2) Der Verantwortliche kann anordnen...",
+      "original_tag": "ai",
+      "prediction": {
+        "predicted_label": "AI-Generated",
+        "confidence": 77.66999816894531,
+        "probability_ai": 77.66999816894531,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 8,
+      "source_id": "gesetz_ksvg_29",
+      "domain": "state_law",
+      "input_text": "(2) Die Künstlersozialkasse kann mit Zustimmung des Berechtigten zu Unrecht entrichtete Beitragsanteile mit künftigen Ansprüchen auf Beitragsanteile verrechnen. (3) Für die Verzinsung und Verjährung des Anspruchs auf Erstattung gilt § 27 des Vierten Buches Sozialgesetzbuch entsprechend. - Die Künstlersozialkasse erhebt von den zur Abgabe Verpflichteten (§ 24) eine Umlage (Künstlersozialabgabe) nach einem Vomhundertsatz (§ 26) der Bemessungsgrundlage (§ 25).",
+      "display_text": "(2) Die Künstlersozialkasse kann mit Zustimmung des Berechtigten zu Unrecht entrichtete Beitragsanteile mit künftigen Ansprüchen auf Beitragsanteile verrechnen. (3) Für die Verzinsung und Verjährung d...",
+      "original_tag": "human",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.98999786376953,
+        "probability_ai": 0.009999999776482582,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 9,
+      "source_id": "ai_bundestag_speech_0015570",
+      "domain": "bundestag_speech",
+      "input_text": "Frau Präsidentin! Meine Damen und Herren! Die öffentliche Debatte der letzten Wochen hat eines klar gezeigt: Die Menschen erwarten Lösungen. Tierarzneimittelrecht ist ein Thema, das in der Öffentlichkeit intensiv diskutiert wird. BSW hat sich dazu klar positioniert. Nachhaltige Entwicklung ist ohne eine solche Regelung nicht denkbar. Der Markt allein wird dieses Problem nicht lösen. Die Normenkontrolle wird zeigen, ob die Regelung Bestand hat. über 60 Prozent der befragten Unternehmen unterstützen die Reform. Ohne flankierende Maßnahmen wird das Vorhaben scheitern. Die vorgeschlagenen Maßnahmen sind verhältnismäßig. Zudem: Nachhaltige Entwicklung ist ohne eine solche Regelung nicht denkbar. Gestatten Sie mir eine abschließende Bemerkung: Der Markt allein wird dieses Problem nicht lösen. Die Erfahrung lehrt uns: Ohne flankierende Maßnahmen wird das Vorhaben scheitern. die Beteiligung liegt bei 47 Prozent und damit deutlich unter dem EU-Durchschnitt. die Ausgaben sind seit 2020 um rund 15 Prozent gestiegen. Gestatten Sie mir eine abschließende Bemerkung: Nachhaltige Entwicklung ist ohne eine solche Regelung nicht denkbar. Von zentraler Bedeutung ist: Ohne flankierende Maßnahmen wird das Vorhaben scheitern. Vor diesem Hintergrund: Die vorgeschlagenen Maßnahmen sind verhältnismäßig. Ich appelliere an alle Fraktionen, sich dieser wichtigen Aufgabe zu stellen.",
+      "display_text": "Frau Präsidentin! Meine Damen und Herren! Die öffentliche Debatte der letzten Wochen hat eines klar gezeigt: Die Menschen erwarten Lösungen. Tierarzneimittelrecht ist ein Thema, das in der Öffentlichk...",
+      "original_tag": "ai",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.95999908447266,
+        "probability_ai": 0.03999999910593033,
+        "threshold": 77.0
+      },
+      "correct": false
+    },
+    {
+      "id": 10,
+      "source_id": "ai_bundestag_speech_0094860",
+      "domain": "bundestag_speech",
+      "input_text": "Die Koalition hat sich viel vorgenommen. Heute sehen wir, ob sie Wort hält. Kreislaufwirtschaftsgesetz ist ein Thema, zu dem ich mich äußern möchte. Der vorliegende Bericht zeigt deutlich: Die Maßnahmen greifen. Die Zahl der Beschwerden ist um 40 Prozent zurückgegangen. Das ist ein Erfolg, der sich sehen lassen kann. Außerdem: Die Kosten-Nutzen-Analyse fällt eindeutig aus. Hinzu kommt, dass: Ohne flankierende Maßnahmen wird das Vorhaben scheitern. In enger Abstimmung mit: Der soziale Zusammenhalt erfordert ein entschlossenes Handeln. Dem würde ich nichts hinzufügen. Vielen Dank.",
+      "display_text": "Die Koalition hat sich viel vorgenommen. Heute sehen wir, ob sie Wort hält. Kreislaufwirtschaftsgesetz ist ein Thema, zu dem ich mich äußern möchte. Der vorliegende Bericht zeigt deutlich: Die Maßnahm...",
+      "original_tag": "ai",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.98999786376953,
+        "probability_ai": 0.009999999776482582,
+        "threshold": 77.0
+      },
+      "correct": false
+    },
+    {
+      "id": 11,
+      "source_id": "ai_bundestag_speech_0096583",
+      "domain": "bundestag_speech",
+      "input_text": "Frau Präsidentin! Ich bitte um das Wort zur aktuellen Stunde. Es ist ein guter Tag für die Demokratie, dass wir uns dieser wichtigen Frage widmen. Baurecht und Flächenversiegelung ist ein Thema, das uns alle angeht. Eine gesetzliche Regelung ist dem freimöchteigen Verhalten vorzuziehen. In der täglichen Praxis zeigt sich: Der Bundesrat hat in seiner Stellungnahme wichtige Punkte angemerkt. die Ausgaben sind seit 2020 um rund 15 Prozent gestiegen. Die Vorgaben der EU sind in nationales Recht umzusetzen. Des Weiteren: Die Rechtssicherheit ist ein hohes Gut. Die Rechtssicherheit ist ein hohes Gut. Lassen Sie uns diesen Weg gemeinsam gehen – im Interesse unseres Landes.",
+      "display_text": "Frau Präsidentin! Ich bitte um das Wort zur aktuellen Stunde. Es ist ein guter Tag für die Demokratie, dass wir uns dieser wichtigen Frage widmen. Baurecht und Flächenversiegelung ist ein Thema, das u...",
+      "original_tag": "ai",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.98999786376953,
+        "probability_ai": 0.009999999776482582,
+        "threshold": 77.0
+      },
+      "correct": false
+    },
+    {
+      "id": 12,
+      "source_id": "ID216415400_seg0003",
+      "domain": "bundestag_speech",
+      "input_text": "Das ist Voraussetzung für Stärke und Stabilität, für wirtschaftliche Stärke und soziale Stabilität. Deshalb fordern wir als AfD: Stellen Sie endlich wieder die Interessen der Deutschen an erste Stelle. Senken Sie die staatlichen Belastungen auf Energie und Mobilität. Sorgen Sie dafür, dass die Menschen wieder Luft zum Atmen haben. So stärken wir Bürger und Unternehmer. Die Regierung ist auf Kollisionskurs mit der Wirklichkeit. Es ist höchste Zeit, diese Irrfahrt zu beenden. Dazu haben die Bürger in Rheinland-Pfalz Gelegenheit. Wir regeln das. Die Chance ist da. Wählen Sie die AfD in Rheinland-Pfalz! Vielen Dank. Für die SPD-Fraktion hat jetzt das Wort die Abgeordnete Isabel Cademartori.",
+      "display_text": "Das ist Voraussetzung für Stärke und Stabilität, für wirtschaftliche Stärke und soziale Stabilität. Deshalb fordern wir als AfD: Stellen Sie endlich wieder die Interessen der Deutschen an erste Stelle...",
+      "original_tag": "human",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.97000122070312,
+        "probability_ai": 0.029999999329447746,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 13,
+      "source_id": "5630_Boris Pistorius_3",
+      "domain": "bundestag_speech",
+      "input_text": "Moskau wird nicht nur weiter mit allen Mitteln versuchen, die Ukraine von der Karte Europas zu tilgen, Putin und das russische Regime werden auch weiter versuchen, unsere freie Gesellschaft mit Cyberangriffen, mit gezielten Desinformationskampagnen, mit Propaganda in den sozialen Medien zu spalten und zu destabilisieren. Unsere Art, frei, selbstbestimmt und in Demokratie zu leben, ist das eigentliche Feindbild von Putin. Es geht ihm um mehr als die Ukraine. Er hat Angst vor der Bedrohung – nicht durch die NATO oder eine widerstandsfähige Ukraine, sondern davor, dass die freie, demokratische Welt ihm auf die Pelle rückt und sein Regime, seine Macht gefährdet, meine Damen und Herren. Wie wir auf diese russische Bedrohung und den russischen Krieg in der Ukraine antworten, wird das Leben zukünftiger Generationen prägen, auch in diesem Land. Deswegen, meine Damen und Herren, müssen wir heute und auch in Zukunft alles daransetzen, uns dieser Bedrohung mit aller Kraft entgegenzustellen.",
+      "display_text": "Moskau wird nicht nur weiter mit allen Mitteln versuchen, die Ukraine von der Karte Europas zu tilgen, Putin und das russische Regime werden auch weiter versuchen, unsere freie Gesellschaft mit Cybera...",
+      "original_tag": "human",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 100.0,
+        "probability_ai": 0.0,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 14,
+      "source_id": "ai_bundestag_speech_0046372",
+      "domain": "bundestag_speech",
+      "input_text": "Frau Ministerin! Meine Damen und Herren! Der vorliegende Entwurf markiert einen Wendepunkt in der deutschen Gesetzgebung. SGB II und Grundsicherung ist ein Thema, das in der Öffentlichkeit intensiv diskutiert wird. AfD hat sich dazu klar positioniert. Besonders hervorzuheben ist: Die vorgelegten Zahlen sprechen eine eindeutige Sprache. Die Sachverständigen haben in der Anhörung überzeugende Argumente vorgebracht. Die finanzielle Belastung für die Kommunen wäre sonst nicht tragbar. Mit Blick auf die Zukunft: Der Bürokratieabbau muss endlich ernsthaft angegangen werden. Die vorgesehenen Erleichterungen für die Wirtschaft sind zu begrüßen. Die vorgelegten Zahlen sprechen eine eindeutige Sprache. In die gleiche Richtung weist: Die Sachverständigen haben in der Anhörung überzeugende Argumente vorgebracht. Der Bürokratieabbau muss endlich ernsthaft angegangen werden. jährlich entstehen Folgekosten in Höhe von 1,2 Milliarden Euro. Ich danke Ihnen für die Aussprache und bitte um Zustimmung.",
+      "display_text": "Frau Ministerin! Meine Damen und Herren! Der vorliegende Entwurf markiert einen Wendepunkt in der deutschen Gesetzgebung. SGB II und Grundsicherung ist ein Thema, das in der Öffentlichkeit intensiv di...",
+      "original_tag": "ai",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.98999786376953,
+        "probability_ai": 0.009999999776482582,
+        "threshold": 77.0
+      },
+      "correct": false
+    },
+    {
+      "id": 15,
+      "source_id": "ai_bundestag_speech_0037187",
+      "domain": "bundestag_speech",
+      "input_text": "Sehr geehrte Frau Vorsitzende! Beginnen wir mit den Fakten: Die Lage ist komplexer, als manche behaupten. Breitbandausbau ist ein Thema, das in der Öffentlichkeit intensiv diskutiert wird. Die Linke hat sich dazu klar positioniert. Was bedeutet das konkret?: Die Rechtssicherheit ist ein hohes Gut. Aus heutiger Sicht: Die Normenkontrolle wird zeigen, ob die Regelung Bestand hat. Der Föderalismus verlangt nach einer differenzierten Lösung. Von zentraler Bedeutung ist: Die Bürgerinnen und Bürger erwarten zu Recht klare Regelungen. Die Verwaltungsvereinfachung ist überfällig. Im Zusammenwirken mit: Die Rechtssicherheit ist ein hohes Gut. Die Normenkontrolle wird zeigen, ob die Regelung Bestand hat. Die Opposition werden einwenden, dass die Verwaltungsvereinfachung ist überfällig. Doch dieser Einwand greift zu kurz. Ich appelliere an alle Fraktionen, sich dieser wichtigen Aufgabe zu stellen.",
+      "display_text": "Sehr geehrte Frau Vorsitzende! Beginnen wir mit den Fakten: Die Lage ist komplexer, als manche behaupten. Breitbandausbau ist ein Thema, das in der Öffentlichkeit intensiv diskutiert wird. Die Linke h...",
+      "original_tag": "ai",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.95999908447266,
+        "probability_ai": 0.03999999910593033,
+        "threshold": 77.0
+      },
+      "correct": false
+    },
+    {
+      "id": 16,
+      "source_id": "gesetz_rent_g_13",
+      "domain": "state_law",
+      "input_text": "(3) Die Zentrale Stelle für die Digitale Rentenübersicht steht unter Rechtsaufsicht des Bundesministeriums für Arbeit und Soziales. Das Bundesministerium für Arbeit und Soziales kann die Aufsicht ganz oder teilweise dem Bundesamt für Soziale Sicherung übertragen. Die Vorschriften über die Selbstverwaltung der Träger der Sozialversicherung finden keine Anwendung in Bezug auf die inhaltliche Ausgestaltung der Digitalen Rentenübersicht.",
+      "display_text": "(3) Die Zentrale Stelle für die Digitale Rentenübersicht steht unter Rechtsaufsicht des Bundesministeriums für Arbeit und Soziales. Das Bundesministerium für Arbeit und Soziales kann die Aufsicht ganz...",
+      "original_tag": "human",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 100.0,
+        "probability_ai": 0.0,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 17,
+      "source_id": "5619_Hansjörg Durz_3",
+      "domain": "bundestag_speech",
+      "input_text": "Damit die Wunschzettel auch weiterhin zuverlässig beim Weihnachtsmann in Himmelpfort ankommen und die Pakete rechtzeitig am 24. Dezember überall unter dem Weihnachtsbaum landen, schenken wir Ihnen, liebe Ampel, pünktlich zu Weihnachten diesen Antrag. Mit dieser Weihnachtslektüre und guten Vorsätzen können Sie sich dann im neuen Jahr um Ihren Referentenentwurf kümmern und diesen gründlich überarbeiten. Jetzt wünsche ich Ihnen allen aber „Frohe Weihnachten!“.",
+      "display_text": "Damit die Wunschzettel auch weiterhin zuverlässig beim Weihnachtsmann in Himmelpfort ankommen und die Pakete rechtzeitig am 24. Dezember überall unter dem Weihnachtsbaum landen, schenken wir Ihnen, li...",
+      "original_tag": "human",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.91999816894531,
+        "probability_ai": 0.07999999821186066,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 18,
+      "source_id": "ID207203500_seg0001",
+      "domain": "bundestag_speech",
+      "input_text": "Auch wenn die einzelnen Titel in dieser Titelgruppe, wie es so schön heißt, zusammengefasst werden, werden die Programme weitergeführt. Wir haben ja jetzt deswegen nicht Programme eingestellt. Und insofern ist natürlich ein Antragsverfahren in den bestehenden Programmen, so wie es vorgesehen ist, möglich. Speziell auf die DATI bezogen haben wir ja gesagt: Gründung Anfang nächsten Jahres und dann natürlich auch zügig das Bewerben um die ersten Projekte. Nur zur Erklärung an die beiden Kollegen aus der CDU/CSU-Fraktion, die etwas später reingekommen sind. Ich habe gesagt: Ich lasse sechs Nachfragen zu. – Deswegen habe ich gerade den Kopf geschüttelt. Aber jetzt kommt aus der CDU/CSU-Fraktion von Herrn Albani die nächste Frage zum Thema.",
+      "display_text": "Auch wenn die einzelnen Titel in dieser Titelgruppe, wie es so schön heißt, zusammengefasst werden, werden die Programme weitergeführt. Wir haben ja jetzt deswegen nicht Programme eingestellt. Und ins...",
+      "original_tag": "human",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 100.0,
+        "probability_ai": 0.0,
+        "threshold": 77.0
+      },
+      "correct": true
+    },
+    {
+      "id": 19,
+      "source_id": "ai_bundestag_speech_0018418",
+      "domain": "bundestag_speech",
+      "input_text": "Sehr geehrter Herr Bundeskanzler! Liebe Kolleginnen und Kollegen! Der vorliegende Entwurf markiert einen Wendepunkt in der deutschen Gesetzgebung. Lobbyregister ist ein Thema, das uns alle angeht. Schon vor zwanzig Jahren wurde in der Wissenschaft auf dieses Problem hingewiesen. Ohne flankierende Maßnahmen wird das Vorhaben scheitern. Die Opposition verkennt hier die tatsächlichen Verhältnisse. Die Pilotprojekte in den Modellregionen sind vielversprechend. Darüber hinaus: Die Pilotprojekte in den Modellregionen sind vielversprechend. die durchschnittlichen Kosten belaufen sich auf 2,4 Milliarden Euro jährlich. Die Transparenz der Entscheidungsprozesse muss sichergestellt sein. Die Sachverständigen haben in der Anhörung überzeugende Argumente vorgebracht. rund 340.000 Menschen haben von der Neuregelung profitiert. Die Diskussion der letzten Monate hat deutlich gemacht: Die Sachverständigen haben in der Anhörung überzeugende Argumente vorgebracht. die Ausgaben sind seit 2020 um rund 15 Prozent gestiegen. Ich appelliere an alle Fraktionen, sich dieser wichtigen Aufgabe zu stellen.",
+      "display_text": "Sehr geehrter Herr Bundeskanzler! Liebe Kolleginnen und Kollegen! Der vorliegende Entwurf markiert einen Wendepunkt in der deutschen Gesetzgebung. Lobbyregister ist ein Thema, das uns alle angeht. Sch...",
+      "original_tag": "ai",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.98999786376953,
+        "probability_ai": 0.009999999776482582,
+        "threshold": 77.0
+      },
+      "correct": false
+    },
+    {
+      "id": 20,
+      "source_id": "ai_bundestag_speech_0060259",
+      "domain": "bundestag_speech",
+      "input_text": "Herr Präsident! Liebe Kolleginnen und Kollegen! Ich will es gleich zu Beginn deutlich sagen: Dieser Gesetzentwurf geht in die richtige Richtung. Baukindergeld und Familienförderung ist ein Thema, das in der Öffentlichkeit intensiv diskutiert wird. FDP hat sich dazu klar positioniert. Aus praktischer Erfahrung: Die vorgelegten Zahlen sprechen eine eindeutige Sprache. Die Rechtssicherheit ist ein hohes Gut. Die Erfahrungen in anderen Ländern zeigen, dass der Ansatz funktioniert. Die Opposition verkennt hier die tatsächlichen Verhältnisse. Darüber hinaus: Nachhaltige Entwicklung ist ohne eine solche Regelung nicht denkbar. Die vorgelegten Zahlen sprechen eine eindeutige Sprache. Nachhaltige Entwicklung ist ohne eine solche Regelung nicht denkbar. Wie bereits mehrfach betont: Die Opposition verkennt hier die tatsächlichen Verhältnisse. Von zentraler Bedeutung ist: Die Opposition verkennt hier die tatsächlichen Verhältnisse. Wie die Vergangenheit gezeigt hat: Nachhaltige Entwicklung ist ohne eine solche Regelung nicht denkbar. Die Befürworter werden einwenden, dass die vorgelegten Zahlen sprechen eine eindeutige Sprache. Doch dieser Einwand greift zu kurz. Ich danke Ihnen für die Aussprache und bitte um Zustimmung.",
+      "display_text": "Herr Präsident! Liebe Kolleginnen und Kollegen! Ich will es gleich zu Beginn deutlich sagen: Dieser Gesetzentwurf geht in die richtige Richtung. Baukindergeld und Familienförderung ist ein Thema, das ...",
+      "original_tag": "ai",
+      "prediction": {
+        "predicted_label": "Human-Written",
+        "confidence": 99.98999786376953,
+        "probability_ai": 0.009999999776482582,
+        "threshold": 77.0
+      },
+      "correct": false
+    }
+  ]
+}
